@@ -100,11 +100,32 @@ margin-top: -21px;
               height: 3.4%;
 }
 
+.social-link:not(:last-child) {
+                  margin-right: -13px;
+}
+
 .footer-contacts-phone {margin-top: -10px;
 }
 
 .footer-section { font-size: 16px;
     line-height: 30px;
     margin-top: 46px;
-margin-left: 33px; *Игорь, здравствуйте! Подвал развалился.В следующей поправлю,не успела*
+margin-left: 33px;
 }
+.footer-section-container:nth-child(1) {
+    display: flex; 
+    transform: translateY(-46px) translateX(-48px);
+  }
+  
+  .footer-section-container:nth-child(2) {
+    display: flex; 
+    transform: translateX(-3px);
+  }
+  
+  .footer-section-container:nth-child(3) {
+    display: flex; 
+    transform: translateX(147px) translateY(7px);
+  }
+  address {
+    font-style: normal;
+  }
