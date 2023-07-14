@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Harmonia Sans Pro Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Harmonia Sans Pro Cyr") local("Harmonia Sans Pro Cyr'-Regular") url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
+      url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
+}
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Harmonia Sans Pro Cyr', sans-serif;
+}
+.header {
+    display: flex;
+}
+.header__blog {
+    color: #FF006B;
+}
+.header__menu {
+    display: flex;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: flex-end;
+    padding: 0%;
+    font-size: 22px;
+    line-height: normal;
+}
+.highlighted {
+    color: #FF006B;
+}
+.header__logo {
+    margin-right: 30px;
+}
+.content__paragraph {
+    display: flex;
+    width: 677px;
+    font-size: 24px;
+    line-height: normal;
+    margin: 0;
+    gap: 28px;
+}
+.content__figcaption {
+    font-size: 16px;
+    line-height: normal;
+}
+.footer {
+
+}
+.footer__copyright {font-size: 20px;
+    font-weight: 600;
+
+}
+.social_icon { width: 52px;
+              height: 68px;
+
+}
+.footer-contacts-phone {
+
+}
+.footer-section { font-size: 16px;
+    line-height: 30px
+
+}
