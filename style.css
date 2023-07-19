@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local("Harmonia Sans Pro Cyr") local("Harmonia Sans Pro Cyr'-Regular") url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
+    src: local("Harmonia Sans Pro Cyr"), local("Harmonia Sans Pro Cyr Regular"), url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
       url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
 }
 
