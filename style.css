@@ -35,10 +35,11 @@
     font-size: 22px;
     line-height: normal;
     margin-top: 17px;
-    a:not(.highlighted) {
+}
+
+.header__list a:not(.highlighted) {
     text-decoration: none;
     color: black;
-    }
 }
 
 .highlighted {
@@ -110,13 +111,14 @@ z-index: 2;
 }
 
 .footer-contacts-phone {
-    margin-top: 16px;
+    margin-top: 0px;
 }
 
 .footer-section {
     font-size: 16px;
     line-height: 30px;
     margin-top: 46px;
+    flex-direction: row;
 }
 .footer-section-container a {
     display: block;
@@ -124,4 +126,5 @@ z-index: 2;
 }
 address {
     font-style: normal;
+     margin-top: 20px;
 }
