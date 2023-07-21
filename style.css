@@ -4,7 +4,7 @@
     font-weight: 400;
     font-display: swap;
     src: local("Harmonia Sans Pro Cyr"), local("Harmonia Sans Pro Cyr Regular"), url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
-      url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
+         url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
 }
 
 .page {
@@ -65,19 +65,19 @@
 .content__image {
     max-width: 100%;
     height: auto;
-     margin-left: -12px;
+    margin-left: -12px;
     margin-top: 71px;
 }
 
 .container {
-position: relative;
+    position: relative;
 }
 
 .container p {
-position: absolute;
-top: 10px;   
-left: 10px;
-z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
 }
 
 .content__figcaption {
@@ -87,44 +87,52 @@ z-index: 2;
     margin-top: -17px;
 }
 
-.footer {display: flex;
-         margin-top: 52px;
+.footer {
+    display: flex;
+    margin-top: 52px;
 }
 
-.footer__copyright {font-size: 20px;
+.footer__copyright {
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 11px;
 }
 
-.social_icon { width: 5.2%;
-              height: 3.4%;
+.social_icon {
+    width: 5.2%;
+    height: 3.4%;
 }
 
 .social-link:not(:last-child) {
-                  margin-right: -13px;
+    margin-right: -13px;
 }
 
-.footer-contacts-phone {margin-top: -10px;
+.footer-contacts-phone {
+    margin-top: -10px;
 }
 
-.footer-section { font-size: 16px;
+.footer-section {
+    font-size: 16px;
     line-height: 30px;
     margin-top: 46px;
-margin-left: 33px;
+    margin-left: 33px;
 }
+
 .footer-section-container:nth-child(1) {
-    display: flex; 
+    display: flex;
     transform: translateY(-46px) translateX(-48px);
-  }
-  
-  .footer-section-container:nth-child(2) {
-    display: flex; 
+}
+
+.footer-section-container:nth-child(2) {
+    display: flex;
     transform: translateX(-3px);
-  }
-  
-  .footer-section-container:nth-child(3) {
-    display: flex; 
+}
+
+.footer-section-container:nth-child(3) {
+    display: flex;
     transform: translateX(147px) translateY(7px);
-  }
-  address {
+}
+
+address {
     font-style: normal;
+}
